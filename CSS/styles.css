@@ -1,0 +1,117 @@
+body.index{
+    background-color: bisque;
+    background-image: -moz-linear-gradient();
+    /* background-image: url(/LiquorStore/pictures/IMG-20230616-WA0034.jpg); */
+    background-color: azure;
+    background-repeat: no-repeat;
+    background-size: 100%;
+}
+
+h1{
+    color:darkblue;
+    font-size: 40px;
+    font-weight: bolder;
+    text-align: center;
+    background-color: white;
+}
+h2{
+    font-size: 35px;
+    color: default;
+    text-align: center;
+    font-weight: bold;
+}
+nav{
+    font-size: larger;
+    font-weight: bolder;
+    background-color: aqua;
+    width: 100%;
+    font-size: 25px;
+    padding: 14px 16px;
+    text-align: center;
+    border-top:0;
+    
+}
+
+/* nav a{
+  float: left;
+  color: darkblue;
+  font-weight: bolder;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 25px;
+  background-color: aqua;
+} */
+
+nav a{
+  color: darkblue;
+  font-weight: bolder;
+  text-align: center;
+  font-size: 27px;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+
+
+.nav a.active{
+    background-color: aqua;
+}
+
+.nav a:hover{
+    color: aqua;
+    background-color: darkblue;
+}
+
+img{
+    size: 100%;
+}
+
+
+
+div.form{
+  background-color:azure;
+  text-align: justify;
+  position: relative;
+  width: 40%;
+  padding: 10px;
+  border: 20px solid gray;
+  margin:  2cm auto;
+  border-style: solid;
+  border-width: 5px 10px 15px 10px;
+  border-radius: 15px;
+  justify-content: center;
+}
+a:hover{
+    color: darkgreen;
+}
+
+.home{
+    text-align: right;
+}
+
+.body{
+    background-color:dimgrey;
+    background-image: url(/LiquorStore/pictures/IMG-20230616-WA0035.jpg);
+    background-repeat: no-repeat;
+    background-size: 100%;
+}
+label{
+    font-size:xx-large;
+    font-weight: bolder
+}
+input{
+    color: black;
+    font-size: medium;
+    font-weight: bold;
+    background-color: aquamarine;
+    border-style: solid;
+}
+.liquors{
+    margin-top: 0;
+    border-style: solid;
+    width: 8.5cm;
+}
+.images{
+    border: 2px 2px;
+}
