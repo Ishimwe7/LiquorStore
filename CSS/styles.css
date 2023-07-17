@@ -53,8 +53,6 @@ nav a{
   text-decoration: none;
 }
 
-
-
  a.active{
     background-color: darkblue;
     color: aqua;
