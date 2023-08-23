@@ -29,18 +29,24 @@
     </style>
   </head>
   <body>
+  <?php
+      include "nav.php";
+    ?>
     <div class="founder">
       <p>
-        <img src="/pictures/WhatsApp Image 2023-04-11 at 09.09.08.jpg" alt="" />
+        <img
+          src="../pictures/WhatsApp Image 2023-04-11 at 09.09.08.jpg"
+          alt=""
+        />
       </p>
       <p style="font-size: 25px">Eng.Ny@nja~Cy@ne</p>
       <p style="font-size: 15px">
-        C.E.O and Founder of <a href="/Links/index.html"> The Liqour Store</a>
+        C.E.O and Founder of <a href="../index.php"> The Liqour Store</a>
       </p>
     </div>
     <h2 style="color: darkblue">OVERVIEW</h2>
     <p>
-      <a href="/Links/index.html"> The Liqour Store</a> is a project designed to
+      <a href="../index.php"> The Liqour Store</a> is a project designed to
       create an online presence for liquor stores worldwide. <br />
       It lets customers order liquor products online and have them shipped to
       their address of preference. <br />
@@ -56,7 +62,7 @@
       receive customer payments. <br />
     </p>
     <h3 style="text-align: right" class="home">
-      Go Back <a href="/Links/index.html">Home</a>
+      Go Back <a href="../index.php">Home</a>
     </h3>
   </body>
 </html>

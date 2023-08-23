@@ -2,17 +2,18 @@
   <head>
     <meta charset="UTF-8" />
     <title>Login</title>
-    <link rel="stylesheet" href="/CSS/styles.css" />
+    <link rel="stylesheet" href="../CSS/styles.css" />
   </head>
   <body class="body">
     <div class="form">
       <h1>Please Login Here</h1>
       <br />
-      <form action="">
+      <form action="welcome.php" method="POST">
         <label for="email">Shop name:</label>
         <input
           style="font-size: larger"
           type="text"
+          autofocus
           placeholder="Enter shop name here"
           name="shop_name"
         /><br />
@@ -28,26 +29,24 @@
         <label for="password">Password:</label>
         <input
           style="font-size: larger"
-          type="text"
-          placeholder="Please enter password"
+          type="password"
+          maxlength="10"
+          placeholder="Enter your password"
           name="password"
         /><br />
         <br />
         <p class="buttons">
-          <input style="font-size: xx-large" type="submit" value="Login" />
-          <input
-            style="font-size: xx-large"
-            type="reset"
-            value="Clear Form"
-          /><br />
+          <button style="font-size: x-large" type="submit" name="submit">Login</button>
+          <button style="font-size: x-large" type="reset">Clear Form</button>
         </p>
       </form>
-      <br />
       <p style="font-size: x-large">
         You don't have an account?
-        <a href="/Links/registerVendor.html"> Register Here</a>
+        <a href="registerVendor.php"> Register Here</a>
       </p>
-      <h3 class="home">Go Back <a href="/Links/index.html">Home</a></h3>
+      <h3 style="font-size: x-large" class="home">
+        Go Back <a href="../index.php">Home</a>
+      </h3>
     </div>
   </body>
 </html>

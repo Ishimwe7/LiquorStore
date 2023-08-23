@@ -1,10 +1,7 @@
-body.index{
-    background-color: bisque;
-    background-image: -moz-linear-gradient();
-    /* background-image: url(/LiquorStore/pictures/IMG-20230616-WA0034.jpg); */
-    background-color: azure;
-    background-repeat: no-repeat;
-    background-size: 100%;
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
 }
 
 h1{
@@ -12,7 +9,7 @@ h1{
     font-size: 40px;
     font-weight: bolder;
     text-align: center;
-    background-color: white;
+    /*background-color: white;*/
 }
 h2{
     font-size: 35px;
@@ -20,19 +17,69 @@ h2{
     text-align: center;
     font-weight: bold;
 }
-nav{
-    font-size: larger;
-    font-weight: bolder;
-    background-color: aqua;
-    width: 100%;
-    font-size: 25px;
-    padding: 14px 16px;
-    text-align: center;
-    border-top:0;
-    border-radius: 10px;
-    
+.container{
+    display: flex;
+    gap: 40%;
+    border-bottom: 2px solid rgb(92, 39, 2);
+    background-color: beige;
+}
+.logo img{
+    border-radius: 50%;
+}
+.menu{
+  margin-top: 37px;  
+}
+.menu a{
+    margin-left: 13px;
+    text-decoration: none;
+    font-size: 20px;
+    font-weight: 500;
+    color: chocolate;
+}
+ul li{
+    float: left;
+    display: flex;
 }
 
+ #drop_list{
+    display: none;
+}
+#products:hover #drop_list{
+    display: block;
+}
+
+.menu a:hover{
+    color: rgb(136, 58, 2);
+    text-decoration: underline;
+}
+.footer{
+    margin-bottom: 37px; 
+    border-top: 2px solid rgb(92, 39, 2);
+    background-color: beige;
+}
+
+
+
+
+
+
+
+
+
+
+
+/* .division marquee{
+    border-radius: 15px;
+    border-style: solid;
+    background-color: white;
+    font-weight: bold;
+}
+
+.links a{
+    padding: 20px 30px;
+    text-decoration: none;
+    color: #000;
+}
 /* nav a{
   float: left;
   color: darkblue;
@@ -42,26 +89,13 @@ nav{
   text-decoration: none;
   font-size: 25px;
   background-color: aqua;
+} 
+
+.links a:hover{
+    color:#2d3436;
+    background-size: 10px;
+    border-radius: 15px;
 } */
-
-nav a{
-  color: darkblue;
-  font-weight: bolder;
-  text-align: center;
-  font-size: 27px;
-  padding: 14px 16px;
-  text-decoration: none;
-}
-
- a.active{
-    background-color: darkblue;
-    color: aqua;
-}
-
-.nav a:hover{
-    color: aqua;
-    background-color: white;
-}
 
 img{
     size: 100%;
@@ -75,7 +109,7 @@ div.form{
   text-align: justify;
   position: relative;
   width: 40%;
-  padding: 10px;
+  padding: 20px 20px;
   border: 20px solid gray;
   margin:  2cm auto;
   border-style: solid;
@@ -83,31 +117,37 @@ div.form{
   border-radius: 15px;
   justify-content: center;
 }
-a:hover{
-    color: darkgreen;
-}
 
 .home{
     text-align: right;
 }
 
-.body{
-    background-color:dimgrey;
+/*.body{
+    background-color: black;
     background-image: url(/LiquorStore/pictures/IMG-20230616-WA0035.jpg);
     background-repeat: no-repeat;
     background-size: 100%;
-}
+} */
 label{
-    font-size:xx-large;
-    font-weight: bolder
+    font-size:x-large;
+    font-weight: bold
 }
-input{
+input, select{
     color: black;
     font-size: medium;
     font-weight: bold;
-    background-color: aquamarine;
+    background-color:white;
     border-style: solid;
+    border: 2px solid black;
+    border-radius: 5px;
+    padding: 8 px;
 }
+
+input:focus{
+    outline: 0;
+    box-shadow: 0 0 0 3px blueviolet;
+}
+
 .liquors{
     margin-top: 0;
     border-style: solid;
@@ -116,3 +156,14 @@ input{
 .images{
     border: 2px 2px;
 }
+button{
+    border-radius: 6px;
+}
+
+button:hover{
+    background-color: aqua;
+}
+.body{
+    background-color: white;
+}
+

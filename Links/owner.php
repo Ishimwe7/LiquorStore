@@ -3,7 +3,7 @@
   <head>
     <meta charset="UTF-8" />
     <title>Login</title>
-    <link rel="stylesheet" href="/CSS/styles.css" />
+    <link rel="stylesheet" href="../CSS/styles.css" />
   </head>
   <body class="body">
     <div class="form">
@@ -36,7 +36,7 @@
           /><br />
         </p>
       </form>
-      <h3 class="home">Go Back <a href="/Links/index.html">Home</a></h3>
+      <h3 class="home">Go Back <a href="../index.php">Home</a></h3>
     </div>
   </body>
 </html>

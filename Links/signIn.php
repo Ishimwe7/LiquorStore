@@ -27,12 +27,10 @@
         /><br />
         <br />
         <p class="buttons">
-          <input style="font-size: xx-large" type="submit" value="Login" />
-          <input
-            style="font-size: xx-large"
-            type="reset"
-            value="Clear Form"
-          /><br />
+          <div>
+            <button style="font-size: x-large" type="submit">Login</button>
+            <button style="font-size: x-large" type="reset">Clear Form</button>
+          </div>
         </p>
       </form>
       <br />
