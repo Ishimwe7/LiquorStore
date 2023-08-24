@@ -19,36 +19,64 @@ h2{
 }
 .container{
     display: flex;
-    gap: 40%;
+    gap: 36%;
     border-bottom: 2px solid rgb(92, 39, 2);
     background-color: beige;
 }
+
+
 .logo img{
     border-radius: 50%;
 }
 .menu{
   margin-top: 37px;  
+  display: flex;
+  padding: 20px;
+  position:static;
 }
-.menu a{
-    margin-left: 13px;
+
+li a{
     text-decoration: none;
+    display: flex;
+    padding: 10px;
+    float: left;
     font-size: 20px;
     font-weight: 500;
     color: chocolate;
 }
-ul#drop_list{
-    float: none;
-    width: 100%;
-    visibility: visible;
+
+   
+/*ul#drop_list{
+    display: none;
 }
-li:hover  ul#drop_list{
+
+li:hover  ul#drop_list li{
     color: black;
-    visibility: visible;
+    display: block;
+    text-decoration: none;
+} 
+li:hover{
+    display: block;
+} */
+#drop_list{
+    display: none;
+}
+#products:hover ~ #drop_list{
+    display: block;
+}
+#drop_list:hover{
+    display: block;
+}
+ul{
+    display: flex;
+    list-style: none;
+}
+.un_drop{
+    display: flex;
 }
 
 .menu a:hover{
     color: rgb(136, 58, 2);
-    text-decoration: underline;
 }
 .footer{
     margin-bottom: 37px; 
@@ -56,8 +84,15 @@ li:hover  ul#drop_list{
     background-color: beige;
 }
 
-
-
+.dashboard{
+    display: flex;
+    gap: 40%;
+    border-bottom: 2px solid rgb(92, 39, 2);
+    background-color: beige;
+}
+.d_title{
+    float: left;
+}
 
 
 
