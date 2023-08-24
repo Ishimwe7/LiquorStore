@@ -36,16 +36,14 @@ h2{
     font-weight: 500;
     color: chocolate;
 }
-ul li{
-    float: left;
-    display: flex;
+ul#drop_list{
+    float: none;
+    width: 100%;
+    visibility: visible;
 }
-
- #drop_list{
-    display: none;
-}
-#products:hover #drop_list{
-    display: block;
+li:hover  ul#drop_list{
+    color: black;
+    visibility: visible;
 }
 
 .menu a:hover{
