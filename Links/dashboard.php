@@ -2,17 +2,19 @@
 <html lang="en">
 
 <head>
-    <link rel="stylesheet" href="CSS/styles.css">
-    <meta charset="">
+    <link rel="stylesheet" href="CSS/style.css">
+    <meta charset="UTF-8">
     <title>Dashboard</title>
 </head>
 
 <body>
-    <div style="display:flex;">
-        <h1>Admin Dashboard</h1>
-    </div>
-    <div>
-        <img style="float:left" src="../pictures/logo.PNG" alt="our logo">
+    <div class="dashboard">
+        <div class="d_title">
+            <h1>Admin Dashboard</h1>
+        </div>
+        <div>
+            <img class="logo" src="../pictures/logo.PNG" alt="our logo">
+        </div>
     </div>
 </body>
 
