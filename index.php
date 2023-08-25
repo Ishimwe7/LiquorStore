@@ -23,7 +23,7 @@
     </div>
     <div class="menu">
                         <ul>
-                                <li><a class="un_drop" href="/index.php">HOME</a></li>
+                                <li><a class="un_drop" href="#">HOME</a></li>
                                 <div class="drop" >
                                 <li> <a id="products" >OUR PRODUCTS</a>
                                     <ul id="drop_list">
