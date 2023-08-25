@@ -2,7 +2,7 @@
 <html lang="en">
 
 <head>
-    <link rel="stylesheet" href="CSS/style.css">
+    <link rel="stylesheet" href="CSS/dash.css">
     <meta charset="UTF-8">
     <title>Dashboard</title>
 </head>
